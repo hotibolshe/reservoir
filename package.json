@@ -1,0 +1,19 @@
+{
+  "name": "reservoir",
+  "version": "0.0.1",
+  "description": "Personal knowledge reservoir",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hotibolshe/reservoir.git"
+  },
+  "author": "Eugene Crystal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hotibolshe/reservoir/issues"
+  },
+  "homepage": "https://github.com/hotibolshe/reservoir#readme"
+}

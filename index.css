@@ -140,13 +140,22 @@ ul {
 }
 
 .card::before {
-  content: "";
+  content: var(--content);
+  letter-spacing: -0.5rem;
+  color: #000;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 6rem;
+  line-height: 6rem;
   position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  height: 0.7rem;
-  background-color: var(--color);
+  height: 3rem;
+  background: linear-gradient(to bottom, var(--color) 5%, #fff);
+  display: flex;
+  justify-content: end;
+  font-weight: 600;
+  align-items: center;
 }
 
 .card:hover {
